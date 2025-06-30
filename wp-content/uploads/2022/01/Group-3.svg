@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="150" viewBox="0 0 400 150">
+    <!-- Definición de gradientes -->
+    <defs>
+        <!-- Gradiente para VANILLA -->
+        <linearGradient id="gradient-vanilla" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#e50914;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#b81d13;stop-opacity:1" />
+        </linearGradient>
+        <!-- Gradiente para IPTV (blanco) -->
+        <linearGradient id="gradient-iptv" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#ffffff;stop-opacity:1" />
+        </linearGradient>
+        <!-- Sombra de texto -->
+        <filter id="text-shadow">
+            <feDropShadow dx="2" dy="2" stdDeviation="2" flood-color="rgba(0,0,0,0.5)" />
+        </filter>
+    </defs>
+
+    <!-- Texto "VANILLA" -->
+    <text x="10" y="70" font-family="Verdana, sans-serif" font-size="60" font-weight="bold" fill="url(#gradient-vanilla)" letter-spacing="3" filter="url(#text-shadow)">VANILLA</text>
+    
+    <!-- Texto "IPTV" -->
+    <text x="10" y="120" font-family="Verdana, sans-serif" font-size="40" font-weight="bold" fill="#ffffff" letter-spacing="2" filter="url(#text-shadow)">IPTV</text>
+</svg>
